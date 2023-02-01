@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.section {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    min-height: 400px;
+    padding: 100px 20vw;
+  }
+  #mainHead{
+    padding-left: 50px;
+    padding-top: 30px;
+    color: black;
+    height: 100px;
+    width: 100%;
+    background: whitesmoke;
+  }
+
+ ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+    height: 30px;
+    padding-bottom: 0;
+ }
+
+ li{
+    float: left;
+    border-right :1px solid black;
+    border-left :1px solid black;
+    border-top :1px solid black;
+    border-radius: 5px;
+ }
+  
+  #section1 {
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    padding-left: 50px;
+    padding-top: 200px;
+   
+  }
+  
+  
+  #section2 {
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    padding-left: 50px;
+    padding-top: 200px;
+    
+  }
+  
+  #section3 {
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    padding-left: 50px;
+    padding-top: 200px;
+    
+  }
+  
+  body {
+    overflow: scroll;
+    margin:0;
+    font-family: 'Quicksand',sans-serif;
+    color: black;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+  }
+
+  
+
+  .bottomWave {
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+section1.bottomWave svg {
+    position: relative;
+    display: block;
+    width: 100vw;
+    height: 143px;
+}
+
+.bottomWave .shape-fill {
+    fill: #84a4a7;
+}
+
+  .topWave {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.topWave svg {
+    position: relative;
+    display: block;
+    width: calc(126% + 1.3px);
+    height: 143px;
+}
+
+.topWave .shape-fill {
+    fill: #84A4A7;
+}
+
+  
